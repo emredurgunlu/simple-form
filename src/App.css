@@ -1,0 +1,13 @@
+.animate {
+  transition: all 3s;
+  animation: buton 0.1s alternate infinite;
+}
+@keyframes buton {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
